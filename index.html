@@ -23,14 +23,15 @@
     <section id="Sobre">
         <h2>Sobre mim</h2> <!--h1,h2,h3 (São diferente tamanhos de títulos)-->
 
-        <img src="1728044797803.jpg" alt="Imagem de foto de perfil" title="Imagem de perfil"> <!--tag "alt" para usar como alternativa, casos-->
+        <img src="1728044797803.jpg" alt="Imagem de  foto de perfil" title="Imagem de perfil">
+        <!--tag "alt" para usar como alternativa, casos-->
 
         <article><!--Função "article" para criar um texto-->
             <p><!--Função "P" para criar um parágrafo.-->
 
-                Olá eu sou David, sou um desenvolvedor web... <br>
-                Gosto muito de tecnologia, e estou iniciando meus estudos nesta área. <br>
-                Atualmente sou analista de logística junior na empresa Britânia/Philco <br>
+                Olá eu sou David, sou um desenvolvedor web...
+                Gosto muito de tecnologia, e estou iniciando meus estudos nesta área.
+                Atualmente sou analista de logística junior na empresa Britânia/Philco
             </p>
         </article><!--Função para criar um texto-->
         <aside><!--"A parte" para criar um novo titulo-->
@@ -72,7 +73,42 @@
                 <!--Usar "<br>" para quebrar linha-->
                 Número: <a href="tel:81.983276579">81.983276579</a>
             </address>
+            <form action="">
 
+                <label for="Nome">Nome: </label><!--Tag "Label é o campo que fica do lado da caixa de digitação"-->
+                <input type="text" id="Nome" name="Nome" required> <br>
+                <!--Tag "Input para criar campo e receber dados"-->
+
+                <label for="Email">Email: </label>
+                <input type="email" id="Email" name="Email" required> <br>
+                <!--Tag "required" cria campos obrigatórios-->
+
+                <label for="Telefone">Telefone: </label>
+                <input type="tel" id="Telefone" name="Telefone"> <br>
+
+                <label for="Assunto">Assunto: </label>
+                <select name="Assunto" id="Assunto"><!--Tag "Select" para criar um campo de seleção-->
+                    <option value="Orçamento">Orçamento</option><!--Tag "Option" usado para criar as opções-->
+                    <option value="Duvida">Duvida</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="Mensagem">Mensagem: </label>
+                <textarea name="Mensagemm" id="Mensagem" cols="20" rows="5" required></textarea>
+                <br><!--Tag "textarea" para criar uma área de texto-->
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+
+            </form>
 
         </section>
 
