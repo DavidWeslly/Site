@@ -3,14 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David</title> <!--Comando para o título da Aba -->
+    <title>David</title><!--Comando para o título da Aba -->
+    
 </head>
 
 <body>
     <header>
-        <h1>David</h1> <!--Comando "H1" para criar o Titúlo maior do cabeçalho "Header"-->
-        <nav> <!--Comando"Nav" para criar um menu"Nav = Navegação do site"-->
+        <h1 class="Titulo">Meu Primeiro Site</h1><!--Comando "H1" para criar o Titúlo maior do cabeçalho "Header"-->
+        <div class="perfil">
+            <img class="imageperfil" src="Imagens/1728044797803.jpg" alt="Imagem de Perfil">
+            <div class="infoperfil">
+                <div class="nameperfil">David Weslly</div>
+                <div class="descrição">Front-end Developer Student</div>
+                <div class="local">Joinville, Santa Catarina, Brasil</div>
+                <div>
+                    <a href="https://github.com/DavidWeslly" target="_blank"><img class="github" src="Imagens/GitHub-Logo.png   " alt="GitHub-Logo"></a>
+                    <a href="https://www.linkedin.com/in/david-weslly-15115b216/" target="_blank"><img class="linkedin" src="Imagens/Linkedin-Logo.png" alt="Linkedin-Logo" ></a>
+                </div>
+                
+               
+            </div>
+            <nav> <!--Comando"Nav" para criar um menu"Nav = Navegação do site"-->
+            <ul><!--Comando "ul" para criar topicos(lista não ordenada para links no menu)-->
+                <li><a href="#Sobre">Sobre mim</a></li> <!--Usar tag "li" para colocar tópicos-->
+                <li><a href="#Projetos">Projetos</a></li><!--tag "<a href" para criar referência-->
+                <li><a href="#Contatos">Contatos</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="https://google.com.br/" target="_blank">Pesquisas</a></li>
+                <!--tag "target= "_blank" para abrir link em outra aba-->
+            </ul>
+        </nav>
+        </div>
+        
+         <!--tag "alt" para usar como alternativa, casos-->
+         <nav> <!--Comando"Nav" para criar um menu"Nav = Navegação do site"-->
             <ul><!--Comando "ul" para criar topicos(lista não ordenada para links no menu)-->
                 <li><a href="#Sobre">Sobre mim</a></li> <!--Usar tag "li" para colocar tópicos-->
                 <li><a href="#Projetos">Projetos</a></li><!--tag "<a href" para criar referência-->
@@ -24,8 +52,7 @@
     <section id="Sobre">
         <h2>Sobre mim</h2> <!--h1,h2,h3 (São diferente tamanhos de títulos)-->
 
-        <img src="1728044797803.jpg" alt="Imagem de  foto de perfil" title="Imagem de perfil">
-        <!--tag "alt" para usar como alternativa, casos-->
+       
 
         <article><!--Função "article" para criar um texto-->
             <p><!--Função "P" para criar um parágrafo.-->
