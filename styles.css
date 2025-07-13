@@ -1,0 +1,59 @@
+.Titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.perfil{
+    display: flex;
+}
+.nameperfil {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}  
+.descrição {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+} 
+.local{
+    color: rgb(68, 66, 66);
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.github{
+    margin-top: 10px;
+    height: 43px;
+    width: 78px;
+    margin-left: 10px;
+}
+.linkedin{
+    margin-top: 10px;
+    height: 43px;
+    width: 78px;
+    margin-left: 0px;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(141, 153, 156);
+}
+.imageperfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    margin-left: 20px;
+}   
